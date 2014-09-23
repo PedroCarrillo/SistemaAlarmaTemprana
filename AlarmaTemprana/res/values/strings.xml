@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AlarmaTemprana</string>
+    <string name="app_title">Sistema de Alarma Temprana</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="news_string">Noticias</string>
+    <string name="recommendations_string">Recomendaciones</string>
+    <string name="directory_string">Directorio</string>
+    <string name="evacuation_zone_string">Zonas de Evacuaci\ón</string>
+    <string name="flashlight_string">Linterna</string>
+    <string name="evacuation_routes_string">Rutas de Evacuaci\ón</string>
+    
+    <string name="password_hint">Contrase\ña</string>
+    <string name="username_hint">Usuario</string>
+    
+    <string name="obligatory_string">Campo Obligatorio</string>
+    
+
+</resources>
