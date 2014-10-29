@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="horizontal"
+    android:weightSum="1" >
+    
+    <LinearLayout 
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="0.3"
+        android:gravity="center">
+        
+        <ImageView 
+            android:id="@+id/iv_location_pic"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/no_image"
+            android:contentDescription="location image"/>
+        
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="0.7"
+        android:gravity="center">
+        <TextView 
+            android:id="@+id/tv_location_address"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="address"
+            />
+    </LinearLayout>
+    
+
+</LinearLayout>

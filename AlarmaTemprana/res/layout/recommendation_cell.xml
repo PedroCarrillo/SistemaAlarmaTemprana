@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="vertical" 
+    android:weightSum="1">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="0.3"
+        android:layout_height="0dp"
+        android:layout_width="match_parent" >
+		<TextView 
+        android:id="@+id/tv_recommendationTitle"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:text="@string/recommendation_title"
+        />
+           
+    </LinearLayout>  
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="0.7"
+        android:layout_height="0dp"
+        android:layout_width="match_parent" >
+		<TextView 
+        android:id="@+id/tv_recommendation_content"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:text="@string/recommendation_title"
+        />
+           
+    </LinearLayout>
+    
+
+</LinearLayout>
